@@ -1,0 +1,323 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF
+}
+
+body {
+	font-size: 12px;
+	background: url(../img/background.jpg) repeat
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*top*/
+
+#rtt {
+	width: 50px;
+	height: 50px;
+	background: url('../img/trr3.png');
+	background-size: cover;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	border-radius: 5px;
+	z-index: 1000;
+	display: none;
+	cursor: pointer;
+}
+
+
+/****************************************************banner*****************************************/
+
+.allBox {
+	position: relative;
+}
+
+.bannerImg{
+	width:100%;
+	height: 670px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.picBox{
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+	position: relative;
+	overflow: hidden;
+	height: 670px;
+}
+.picImg{
+	width: 5760px;
+	height: 670px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.picImg li{
+	float: left;
+	text-align: center;
+	width: 1920px;
+}
+
+.bannerImg a{
+	background: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 2;
+	font-weight: bold;
+}
+
+.bannerImg a#prev {
+	left: 40px;
+	
+}
+
+.bannerImg a#next {
+	right: 45px;
+}
+
+.buttons span {
+	cursor: pointer;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	margin-right: 6px;
+}
+
+.buttons {
+	position: absolute;
+	bottom: 30px;
+	z-index: 2;
+	text-align: center;
+	height: 12px;
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.buttons span.see {
+	background: #deb25a;
+}
+
+
+/*welcome*/
+
+.all {
+	height: 400px;
+	width: 100%;
+	background-position: center;
+	background-attachment: scroll;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
+
+.head {
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	background: #837a74;
+	background: rgba(124, 116, 111, 0.4)
+}
+
+.welcome ul {
+	margin-right: 30px;
+}
+
+.welcome p {
+	margin-left: 30px;
+	color: #FFF;
+}
+
+.welcome ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+.welcome ul li a {
+	color: #FFF
+}
+
+
+/*nav*/
+
+.logo {
+	margin-left: 30px;
+	margin-top: 10px
+}
+
+.list {
+	margin-top: 15px;
+}
+
+.list li {
+	float: left;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+}
+
+.listChild {
+	position: absolute;
+	left: 12px;
+	top: 20px;
+	display: none;
+}
+
+.listChild li {
+	width: 70px;
+	height: 20px;
+	margin-top: 3px;
+	border: #e3bcb3 1px solid;
+	text-align: center;
+	float: none;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.listChild li a:hover {
+	color: #deb25a;
+}
+
+.list1 {
+	font-size: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	background: url(../img/line1.jpg) no-repeat left center;
+	padding: 0 20px;
+}
+
+.list1:hover {
+	color: #deb25a;
+}
+
+.list li a.index {
+	margin: 5px 15px 0 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.orange{ color:#deb25a}
+
+
+/*search*/
+
+.searchForm {
+	background: rgba(255, 255, 255, 0.2);
+	height: 33px;
+	width: 560px;
+	margin-top: 250px;
+	border-radius: 5px
+}
+
+.searchTxt {
+	background: none;
+	border: none;
+	color: #deb25a;
+	height: 33px;
+	width: 500px;
+	text-indent: 10px
+}
+
+.searchBtn {
+	border: none;
+	background: url(../img/search.png) no-repeat 10px 3px;
+	height: 33px;
+	width: 60px;
+	cursor: pointer
+}
+
+
+/*****************************************************bottom************************************************/
+
+.bottom {
+	height: 200px;
+	width: 100%;
+	margin-top: 40px;
+	background: #000;
+	background: rgba(4, 3, 3, 0.2);
+}
+.bottom ul{ text-align: center;}
+.bottom ul li {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.bottom li .index2 {
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bottom li .index2:hover {
+	color: #deb25a;
+}
+
+.foot {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.footList {
+	line-height: 35px;
+	color: #939497;
+	width: 500px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.code {
+	margin-top: 20px;
+	margin-left: 10px
+}

@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF
+}
+
+body {
+	font-size: 12px;
+	background: url(../img/background.jpg) repeat
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.box {
+	width: 400px;
+	margin: 70px auto;
+}
+
+.box img {
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: 0 auto
+}
+
+.box h2 {
+	text-align: center;
+	margin-top: 10px
+}
+
+.box .bg {
+	height: 400px;
+	background: url(../img/bgLogin.jpg) no-repeat;
+	color: #999;
+	border: #c5def7 1px solid;
+	margin-top: 10px;
+}
+
+.box input {
+	background: rgba(0, 0, 0, 0.4);
+	border: #c5def7 1px solid;
+	border-radius: 5px;
+}
+
+.step {
+	height: 20px;
+	width: 240px;
+	line-height: 20px;
+	margin: 20px auto;
+}
+
+.step li {
+	margin-right: 15px;
+}
+
+.step span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	color: #FFF;
+}
+
+.step span.blue {
+	background-position: 0 0;
+}
+
+
+/*form*/
+#nick_msg,#pw1_msg,#pw2_msg{ margin-left: 90px; color:#f98181;}
+
+.formList {
+	width: 400px;
+	color: #555555;
+}
+
+.formList p {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.formList p.count {
+	margin-top: 0px;
+}
+
+.formList p:nth-of-type(3) {
+	margin-top: 5px;
+}
+
+.formList #count {
+	visibility: hidden;
+	font-weight: normal;
+	display: block;
+}
+
+.formList p.password {
+	padding-left: 110px;
+	margin-top: 5px;
+}
+
+.formList p.password span {
+	float: left;
+}
+
+.formList p.password #levBox {
+	border: 1px #ddd solid;
+	padding: 0;
+}
+
+.formList p.password #levBox span {
+	width: 33px;
+	height: 15px;
+	overflow: hidden;
+	border: 1px #FFF solid;
+	margin: 0;
+}
+
+.formList p.password #lev1,
+.formList p.password #lev2,
+.formList p.password #lev3 {
+	background: #ddd;
+}
+
+.formList p.password span #lev1.on,
+.formList p.password #lev2.on,
+.formList p.password #lev3.on {
+	background: #8fd1ff;
+}
+
+.formList p.agreement {
+	padding-left: 130px;
+	margin-top: 10px;
+}
+
+.formList label {
+	font-size: 14px;
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-top: 7px;
+}
+
+.formList span {
+	color: #fff;
+	padding-left: 10px;
+	float: left;
+	margin-top: 8px;
+}
+
+.formList b {
+	padding-left: 13px;
+	float: left;
+	margin-top: 8px;
+	display: block;
+}
+
+.formList img {
+	display: inline-block;
+	margin: 0 20px 0 10px;
+}
+
+.formList p span.txt {
+	height: 22px;
+}
+
+.formList p span.hide {
+	display: none;
+}
+
+.formList p span.yes {
+	float: left;
+	background: url(../images/reg.png) -50px -690px no-repeat;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin-top: -2px;
+	margin-right: 5px;
+}
+
+.formList p span.no {
+	float: left;
+	background: url(../images/reg.png) 0px -690px no-repeat;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin-top: -2px;
+	margin-right: 5px;
+}
+
+.formList p span.red {
+	color: #a90000;
+}
+
+.longTxt {
+	border: 1px solid #999999;
+	width: 206px;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: middle;
+	overflow: hidden;
+	padding: 0 8px;
+	float: left;
+}
+
+.longTxt.se {
+	border: 1px #a90000 solid;
+}
+
+.checkTxt {
+	border: 1px solid #999999;
+	width: 116px;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.lightBlue {
+	color: #3399e0;
+}
+
+.btn {
+	display: block;
+	width: 130px;
+	height: 45px;
+	margin-left: 130px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	overflow: hidden;
+}
+red

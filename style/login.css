@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #FFF
+}
+
+body {
+	font-size: 12px;
+	background: url(../img/background.jpg) repeat
+}
+
+li {
+	list-style: none
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	border: none
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.box {
+	width: 400px;
+	margin: 70px auto;
+}
+
+.box img {
+	height: 70px;
+	width: 70px;
+	display: block;
+	margin: 0 auto
+}
+
+.box h2 {
+	text-align: center;
+	margin-top: 10px
+}
+
+.box form {
+	height: 400px;
+	background: url(../img/bgLogin.jpg) no-repeat;
+	color: #999;
+	border: #c5def7 1px solid;
+	padding-left: 50px;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding-top: 10px
+}
+
+.box form input {
+	width: 300px;
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 30px;
+	border: #c5def7 1px solid;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 8px;
+	border-radius: 5px;
+}
+
+.box form input#login {
+	cursor: pointer;
+	height: 40px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #999
+}
+
+
+/*.box form input.remember{width: 5px;}*/
+
+.box form p {
+	color: #f98181;
+	margin-top: 5px;
+}
+
+.box form p#error {
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+.box form p.forget {
+	margin-top: 20px;
+	text-indent: 8px;
+}
